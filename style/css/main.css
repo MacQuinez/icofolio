@@ -1,0 +1,410 @@
+h1 {
+  font-size: calc(2.2rem + (41.599999999999994 * (100vw - 400px)/ 624)); }
+
+p {
+  font-size: calc(1.0625rem + (3 * (100vw - 400px)/ 624)); }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.nav-content {
+  margin-top: -24px;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  position: fixed;
+  background: #4b6fcd; }
+  .nav-content nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto; }
+    .nav-content nav img {
+      width: 45px;
+      height: 52px; }
+    .nav-content nav .fa {
+      color: red;
+      font-size: 28px; }
+    .nav-content nav .nav-menu {
+      display: none; }
+
+@media screen and (min-width: 1085px) {
+  nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    nav .fa {
+      display: none; }
+    nav .nav-menu {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 80%;
+      color: grey;
+      font-weight: 400;
+      font-size: 12px;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      nav .nav-menu a {
+        margin-left: 5%; }
+      nav .nav-menu button {
+        background: transparent;
+        padding: 8px 20px;
+        border: 1px solid #000;
+        margin: 0 5%;
+        border-radius: 4px;
+        color: grey;
+        font-weight: 300;
+        font-size: 12px; }
+    nav .sign {
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.8); } }
+
+header {
+  border-bottom: 1px solid lightgrey; }
+  header .header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 30px; }
+    header .header-content .header-content-up {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      header .header-content .header-content-up h1 {
+        margin-top: 85px;
+        font-family: 'PT Serif', serif;
+        padding-bottom: 30px;
+        color: rgba(0, 0, 0, 0.9);
+        font-weight: 700;
+        font-size: calc(2.2rem + (41.599999999999994 * (100vw - 400px)/ 624)); }
+      header .header-content .header-content-up p {
+        color: #5b5e6d;
+        font-weight: 400;
+        line-height: 25px;
+        font-size: calc(1.0625rem + (3 * (100vw - 400px)/ 624)); }
+      header .header-content .header-content-up .form-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        header .header-content .header-content-up .form-content input {
+          margin: 30px 0 20px 0;
+          padding: 20px 0px 20px 15px;
+          font-size: 15px;
+          border-radius: 4px;
+          border: 1px solid lightgray; }
+        header .header-content .header-content-up .form-content button {
+          margin: 10px 0 10px 0;
+          padding: 20px 0px 20px 15px;
+          font-size: 15px;
+          border-radius: 4px;
+          text-align: center;
+          color: rgba(255, 255, 255, 0.9);
+          border: none;
+          background: #3f46ad;
+          cursor: pointer; }
+        header .header-content .header-content-up .form-content button:hover {
+          background: #1c299d;
+          -webkit-transition: color 420ms cubic-bezier(0.165, 0.84, 0.44, 1), background 420ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-box-shadow 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: color 420ms cubic-bezier(0.165, 0.84, 0.44, 1), background 420ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-box-shadow 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: box-shadow 420ms cubic-bezier(0.165, 0.84, 0.44, 1), color 420ms cubic-bezier(0.165, 0.84, 0.44, 1), background 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: box-shadow 420ms cubic-bezier(0.165, 0.84, 0.44, 1), color 420ms cubic-bezier(0.165, 0.84, 0.44, 1), background 420ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-box-shadow 420ms cubic-bezier(0.165, 0.84, 0.44, 1); }
+      header .header-content .header-content-up .cta {
+        text-align: center;
+        margin-top: 10px; }
+        header .header-content .header-content-up .cta p {
+          color: #5b5e6d;
+          font-weight: 400;
+          line-height: 20px;
+          font-size: calc(1rem + (-2 * (100vw - 400px)/ 624)); }
+          header .header-content .header-content-up .cta p a {
+            color: #3f46ad;
+            font-size: calc(1rem + (-2 * (100vw - 400px)/ 624)); }
+    header .header-content .header-content-down {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+      header .header-content .header-content-down img {
+        height: 300px;
+        margin-top: 40px; }
+
+@media screen and (min-width: 768px) {
+  .header-content .header-content-up .form-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .header-content .header-content-up .form-content input {
+    padding: 19px 120px 20px 20px;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left; }
+  .header-content .header-content-up .form-content button {
+    padding: 19px 40px 20px;
+    margin: 10px 0px 0 10px; }
+  .header-content .header-content-up .cta {
+    margin-top: 0;
+    text-align: left; } }
+
+@media screen and (min-width: 1024px) {
+  .header-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  .header-content .header-content-up .form-content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .header-content .header-content-up .form-content input {
+    padding: 19px 120px 20px 20px;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left; }
+  .header-content .header-content-up .form-content button {
+    padding: 19px 40px 20px;
+    margin: 10px 0px 0 10px; }
+  .header-content .header-content-up .cta {
+    text-align: left; }
+  .header-content .header-content-down img {
+    height: 329px;
+    margin-top: 40px;
+    padding-top: 139px;
+    padding-right: 57px; } }
+
+@media screen and (min-width: 1380px) {
+  .header-content .header-content-down img {
+    height: auto; } }
+
+.paySolutions {
+  background-color: #f0f0f0;
+  padding-top: 20px;
+  width: 100%; }
+  .paySolutions .pay-message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .paySolutions .pay-message h2 {
+      font-size: 36px;
+      color: #373d48;
+      font-weight: 100; }
+    .paySolutions .pay-message p {
+      color: #6d7986;
+      font-weight: 200;
+      line-height: 1.75;
+      width: 80%;
+      text-align: center;
+      font-size: 18px;
+      margin-top: -20px; }
+  .paySolutions .pay-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .paySolutions .pay-card .free,
+    .paySolutions .pay-card .private,
+    .paySolutions .pay-card .enterprise {
+      background: #fff;
+      border: 1px solid #ccc;
+      border-top-width: 10px;
+      border-top-color: #cb3837;
+      border-radius: 10px;
+      width: 65%;
+      margin-bottom: 20px; }
+      .paySolutions .pay-card .free h3,
+      .paySolutions .pay-card .private h3,
+      .paySolutions .pay-card .enterprise h3 {
+        font-size: 48px;
+        padding-right: 20px;
+        font-weight: 100;
+        text-align: right; }
+      .paySolutions .pay-card .free h4,
+      .paySolutions .pay-card .private h4,
+      .paySolutions .pay-card .enterprise h4 {
+        color: #cb3837;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: -30px; }
+      .paySolutions .pay-card .free h5,
+      .paySolutions .pay-card .private h5,
+      .paySolutions .pay-card .enterprise h5 {
+        color: #cb3837;
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: 100;
+        margin-top: -15px; }
+      .paySolutions .pay-card .free p,
+      .paySolutions .pay-card .private p,
+      .paySolutions .pay-card .enterprise p {
+        text-align: left;
+        color: #6d7986;
+        font-size: 14px !important;
+        font-weight: 700;
+        margin-left: 20px;
+        line-height: 1.286;
+        margin-bottom: 30px; }
+      .paySolutions .pay-card .free button,
+      .paySolutions .pay-card .private button,
+      .paySolutions .pay-card .enterprise button {
+        color: #fff;
+        background-color: #cb3837;
+        outline: none;
+        -webkit-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        font-weight: 400;
+        border-radius: 20px;
+        width: 80%;
+        margin-left: 10%;
+        padding: 10px 0;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 15px; }
+      .paySolutions .pay-card .free button:hover,
+      .paySolutions .pay-card .private button:hover,
+      .paySolutions .pay-card .enterprise button:hover {
+        background-color: #ac2e2d; }
+    .paySolutions .pay-card .private {
+      border-top-color: #2a79a7; }
+      .paySolutions .pay-card .private h4 {
+        text-align: right;
+        color: grey;
+        font-size: 12px;
+        font-weight: 700;
+        margin-right: 20px;
+        margin-top: -45px;
+        margin-bottom: 40px; }
+      .paySolutions .pay-card .private h5 {
+        color: #2a79a7;
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: -30px;
+        font-weight: 700; }
+      .paySolutions .pay-card .private h6 {
+        color: #2a79a7;
+        font-size: 16px;
+        margin-left: 20px;
+        font-weight: 100;
+        margin-top: -15px; }
+      .paySolutions .pay-card .private button {
+        background-color: #2a79a7; }
+      .paySolutions .pay-card .private button:hover {
+        background-color: #2a79a7; }
+    .paySolutions .pay-card .enterprise {
+      border-top-color: #f09233; }
+      .paySolutions .pay-card .enterprise h3 span {
+        color: grey;
+        font-size: 12px;
+        font-weight: 100; }
+      .paySolutions .pay-card .enterprise h4 {
+        text-align: right;
+        color: grey;
+        font-size: 12px;
+        font-weight: 700;
+        margin-right: 20px;
+        margin-top: -45px;
+        margin-bottom: 40px; }
+      .paySolutions .pay-card .enterprise h5 {
+        color: #f09233;
+        font-weight: 700; }
+      .paySolutions .pay-card .enterprise h6 {
+        color: #f09233;
+        font-size: 14px;
+        margin-left: 20px;
+        font-weight: 100;
+        margin-top: -15px; }
+      .paySolutions .pay-card .enterprise button {
+        background-color: #f09233; }
+      .paySolutions .pay-card .enterprise button:hover {
+        background-color: #f09233; }
+  .paySolutions .payFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .paySolutions .payFooter h2 {
+      font-size: 26px;
+      text-align: center;
+      margin-left: 0; }
+    .paySolutions .payFooter p {
+      color: #6d7986;
+      width: 70%;
+      margin-left: 15%;
+      padding-bottom: 20px; }
+
+@media only screen and (min-width: 768px) {
+  .paySolutions .pay-card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    height: 550px; }
+    .paySolutions .pay-card .free,
+    .paySolutions .pay-card .private,
+    .paySolutions .pay-card .enterprise {
+      position: relative;
+      width: 30%; }
+      .paySolutions .pay-card .free button,
+      .paySolutions .pay-card .private button,
+      .paySolutions .pay-card .enterprise button {
+        position: absolute;
+        bottom: 10px; } }
